@@ -1,0 +1,58 @@
+\documentclass[12pt]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[russian]{babel}
+\usepackage{amsmath, amssymb}
+\usepackage{graphicx}
+\usepackage{listings}
+
+\lstset{
+	language=Python,
+	keepspaces=true,
+	extendedchars=\true,
+	inputencoding=utf8,
+	basicstyle=\tiny,
+	numbers=left,
+	showspaces=false,
+	showstringspaces=false,
+}
+
+\def\dd#1#2{\cfrac{\partial#1}{\partial#2}}
+
+\author{Будакян Я. С.}
+
+\begin{document}
+
+	\begin{titlepage}
+	
+		\begin{center}
+			{\small\textsc{Московский Государственный Университет им. М.\,В. Ломоносова}}
+			\vskip 1pt \hrule \vskip 3pt
+			{\small\textsc{Физический факультет}}
+			\vfill
+			{\Large Практическое задание по ОММ}
+			\break
+			\break
+			{\Large Задача \#1}	
+		\end{center}
+		\vfill
+		\begin{flushright}
+			{Выполнил студент 335 группы \\Будакян Я.\,С.}
+		\end{flushright}
+	\end{titlepage}
+	
+	\section{Постановка задачи}
+		\bigskip\par\noindent{\bf Задача 2. }
+		Используя схему бегущего счета и итерационные методы, решить задачу:
+		\begin{equation}\label{eq:problem}
+			\begin{cases}
+				&\dd{u}t - u\dd{u}x = 0, \quad -1 \le x < 0, \\
+				&u(x, 0) = 2 - \frac{4}{\pi}\arctg(x+2), \\
+				&u(0, t) = (2 - \frac{4}{\pi}\arctg2)e^{-t}
+			\end{cases}
+		\end{equation}
+	
+	\section{Метод решения}
+		
+	
+\end{document}
