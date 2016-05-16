@@ -46,12 +46,11 @@ def newton_iteration(y0, F, dF, eps, h, tau):
         y_iter = y0 - F(y0) / dF(y0, h, tau)
         eps_cur = np.abs(y_iter - y0)
         y0 = y_iter
-        #print("working in newton: eps_cur = " + str(eps_cur) + "esp = " + str(eps) + '\n')
     return y_iter
     
 #шаги по времени и координате
-N = 10
-S = 10
+N = 20
+S = 20
 T = 1
 
 #поскольку рассматривается область x < 0
@@ -72,7 +71,6 @@ for j in range(S):
 #основной цикл расчета
 for j in range(S-1):
     for i in range(N-1):
-        #print(str(i) + ' ' + str(j) + " - i'm working...\n")
         F = gen_F(y[i+1][j], y[i][j+1], y[i][j], h, tau)
         y[i+1][j+1] = newton_iteration(y[i][j], F, dF, 0.0001, h, tau)
 
@@ -85,7 +83,7 @@ Y = np.arange(0, T, tau)
 X, Y = np.meshgrid(X, Y)
 Z = np.transpose(y)
 
-ax.plot_surface(X, Y, Z, rstride=1, cstride=1, color='0.9')
+ax.plot_surface(X, Y, Z, rstride=1, cstride=1, color='1')
 ax.set_xlabel('x')
 ax.set_ylabel('t')
 ax.set_zlabel('u(x, t)')
