@@ -46,7 +46,7 @@ def newton_iteration(y0, F, dF, eps, h, tau):
         y_iter = y0 - F(y0) / dF(y0, h, tau)
         eps_cur = np.abs(y_iter - y0)
         y0 = y_iter
-        print("working in newton: eps_cur = " + str(eps_cur) + "esp = " + str(eps) + '\n')
+        #print("working in newton: eps_cur = " + str(eps_cur) + "esp = " + str(eps) + '\n')
     return y_iter
     
 #шаги по времени и координате
@@ -54,10 +54,12 @@ N = 10
 S = 10
 T = 1
 
-h = 1 / N
+#поскольку рассматривается область x < 0
+h = -1 / N
 tau = T / S
 
 #массив для искомого решения
+#первый индекс - координата, второй - время
 y = np.zeros((S,N))
 
 #заполняем граничные точки
@@ -70,20 +72,22 @@ for j in range(S):
 #основной цикл расчета
 for j in range(S-1):
     for i in range(N-1):
-        print(str(i) + ' ' + str(j) + " - i'm working...\n")
+        #print(str(i) + ' ' + str(j) + " - i'm working...\n")
         F = gen_F(y[i+1][j], y[i][j+1], y[i][j], h, tau)
         y[i+1][j+1] = newton_iteration(y[i][j], F, dF, 0.0001, h, tau)
-        
+
+#отражаем массив, т.к. x < 0
+y = y[::-1,...]
 #визуализация
-ax = Axes3D.Axes3D(plt.figure())
-X = np.arange(-1, 0, h)
+ax = Axes3D(plt.figure())
+X = np.arange(-1, 0, -h)
 Y = np.arange(0, T, tau)
 X, Y = np.meshgrid(X, Y)
 Z = np.transpose(y)
 
 ax.plot_surface(X, Y, Z, rstride=1, cstride=1, color='0.9')
 ax.set_xlabel('x')
-ax.set_ylabel('y')
+ax.set_ylabel('t')
 ax.set_zlabel('u(x, t)')
 
 plt.show()
