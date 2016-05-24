@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.5.23)  24 MAY 2016 12:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.5.23)  24 MAY 2016 23:28
 entering extended mode
 **./report1.tex
 (report1.tex
@@ -690,20 +690,20 @@ File: t2acmr.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
 ))
 \openout1 = `report1.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
 
 ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -765,12 +765,12 @@ G,.JBIG2,.JB2,.eps]
  [1
 
 {C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
-LaTeX Font Info:    Try loading font information for U+msa on input line 46.
+LaTeX Font Info:    Try loading font information for U+msa on input line 52.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 46.
+LaTeX Font Info:    Try loading font information for U+msb on input line 52.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -778,10 +778,10 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 <char_1.png, id=21, 784.1295pt x 579.6054pt>
 File: char_1.png Graphic file (type png)
  <use char_1.png>
-Package pdftex.def Info: char_1.png used on input line 71.
+Package pdftex.def Info: char_1.png used on input line 82.
 (pdftex.def)             Requested size: 392.0638pt x 289.80199pt.
 
-Overfull \hbox (2.0638pt too wide) in paragraph at lines 71--72
+Overfull \hbox (2.0638pt too wide) in paragraph at lines 82--83
 [][] 
  []
 
@@ -789,33 +789,83 @@ Overfull \hbox (2.0638pt too wide) in paragraph at lines 71--72
 File: template.png Graphic file (type png)
 
 <use template.png>
-Package pdftex.def Info: template.png used on input line 89.
+Package pdftex.def Info: template.png used on input line 109.
 (pdftex.def)             Requested size: 195.0pt x 195.00128pt.
- [3 <./template.png>] (report1.aux) ) 
+ [3 <./template.png>] [4]
+Overfull \hbox (64.52675pt too wide) detected at line 159
+ []$[] \OT1/cmr/m/n/12 + [][] [][] + [] [][] +$ 
+ []
+
+
+Overfull \hbox (64.72131pt too wide) detected at line 165
+ []$[] \OMS/cmsy/m/n/12   [][] [][] \OT1/cmr/m/n/12 + [] [][] +$ 
+ []
+
+
+Overfull \hbox (64.52675pt too wide) detected at line 171
+ []$[] \OT1/cmr/m/n/12 + [][] [][] + [] [][] +$ 
+ []
+
+
+Overfull \hbox (64.72131pt too wide) detected at line 177
+ []$[] \OMS/cmsy/m/n/12   [][] [][] \OT1/cmr/m/n/12 + [] [][] +$ 
+ []
+
+[5] [6] [7] <solution_1.png, id=46, 748.7172pt x 579.6054pt>
+File: solution_1.png Graphic file (type png)
+
+<use solution_1.png>
+Package pdftex.def Info: solution_1.png used on input line 210.
+(pdftex.def)             Requested size: 284.69833pt x 220.39384pt.
+ <solution_2.png, id=47, 716.1957pt x 578.8827pt>
+File: solution_2.png Graphic file (type png)
+
+<use solution_2.png>
+Package pdftex.def Info: solution_2.png used on input line 214.
+(pdftex.def)             Requested size: 284.69833pt x 230.10919pt.
+ [8 <./solution_1.png> <./solution_2.png>]
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\utf8.def"
+File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
+) (solution.py
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 1.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/it' in size <6> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 1.
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <6> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 16.
+ [9]) [10] (report1.aux) ) 
 Here is how much of TeX's memory you used:
- 5130 strings out of 493335
- 64569 string characters out of 3139266
- 148270 words of memory out of 3000000
- 8576 multiletter control sequences out of 15000+200000
- 13123 words of font info for 38 fonts, out of 3000000 for 9000
+ 5369 strings out of 493335
+ 67158 string characters out of 3139266
+ 189270 words of memory out of 3000000
+ 8799 multiletter control sequences out of 15000+200000
+ 16270 words of font info for 44 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 38i,8n,40p,776b,275s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files/MiKTeX 2.9/fonts/enc/dvi
-ps/cm-super/cm-super-t2a.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/public/am
-sfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/c
-m/cmmi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.
-pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/P
-rogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Fil
-es/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 
-2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/font
-s/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/p
-ublic/cm-super/sfbx1200.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/cm-
-super/sfbx1728.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/cm-super/sfc
-c1095.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/cm-super/sfrm1200.pfb
-><C:/Program Files/MiKTeX 2.9/fonts/type1/public/cm-super/sfrm1728.pfb>
-Output written on report1.pdf (4 pages, 308599 bytes).
+ 38i,12n,40p,1123b,1335s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/cm-super
+/cm-super-t2a.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
+mex10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pf
+b><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Pro
+gram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program File
+s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 
+2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files/MiKTeX 2.9/fonts/
+type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publ
+ic/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfo
+nts/cm/cmsy6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
+sy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/cm-super/sfbx0600.pfb><
+C:/Program Files/MiKTeX 2.9/fonts/type1/public/cm-super/sfbx1200.pfb><C:/Progra
+m Files/MiKTeX 2.9/fonts/type1/public/cm-super/sfbx1728.pfb><C:/Program Files/M
+iKTeX 2.9/fonts/type1/public/cm-super/sfcc1095.pfb><C:/Program Files/MiKTeX 2.9
+/fonts/type1/public/cm-super/sfrm0600.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
+pe1/public/cm-super/sfrm1200.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publi
+c/cm-super/sfrm1728.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/cm-supe
+r/sfti0600.pfb>
+Output written on report1.pdf (11 pages, 902725 bytes).
 PDF statistics:
- 73 PDF objects out of 1000 (max. 8388607)
+ 120 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 11 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 21 words of extra memory for PDF output out of 10000 (max. 10000000)
 
