@@ -1,0 +1,47 @@
+\documentclass[12pt]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[russian]{babel}
+\usepackage{amsmath, amssymb}
+\usepackage{graphicx}
+\usepackage{listings}
+
+\lstset{
+	language=Python,
+	keepspaces=true,
+	extendedchars=\true,
+	inputencoding=utf8,
+	basicstyle=\tiny,
+	numbers=left,
+	showspaces=false,
+	showstringspaces=false,
+}
+
+\def\dd#1#2{\cfrac{\partial#1}{\partial#2}}
+\def\ddd#1#2#3{\cfrac{\partial^2#1}{\partial#2\partial#3}}
+\def\dddd#1#2{\cfrac{\partial^2#1}{\partial{#2}^2}}
+\def \atxt#1{\left.#1\right|_{(\bar{x},\bar{t})}}
+
+\author{Будакян Я. С.}
+
+\begin{document}
+	\begin{titlepage}
+		\begin{center}
+			{\small\textsc{Московский Государственный Университет им. М.\,В. Ломоносова}}
+			\vskip 1pt \hrule \vskip 3pt
+			{\small\textsc{Физический факультет}}
+			\vfill
+			{\Large Практическое задание по ОММ}
+			\break
+			\break
+			{\Large Задача \#2}	
+		\end{center}
+		
+		\vfill
+		
+		\begin{flushright}
+			{Выполнил студент 335 группы\\Будакян Я.\,С.\\
+			 Преподаватель Домбровская Ж.\,О.}
+		\end{flushright}
+	\end{titlepage}
+\end{document}
